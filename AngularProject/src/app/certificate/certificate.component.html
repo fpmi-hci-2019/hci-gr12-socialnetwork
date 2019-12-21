@@ -1,0 +1,26 @@
+<div class='card' style="width: 28rem; margin: auto;" *ngIf='certificate'>
+  <div class='card-header'>
+    <h3>{{certificate.name}}</h3>
+  </div>
+  <div class='card-body'>
+    <h5>Description:</h5>
+     {{certificate.description}}
+  </div>
+  <div class='card-body'>
+    <h5>Duration:</h5>
+     {{certificate.duration}} days
+  </div>
+  <div class='card-body'>
+    <h5>Price:</h5>
+     {{certificate.price}} BYN
+  </div>
+  <div class='card-body'>
+    <h5>Created at:</h5>
+     {{certificate.creationDate | date}}
+  </div>
+  <div class='card-footer'>
+    <span *ngFor="let tag of certificate.tags" class="btn btn-success" style="font-size: 12px">
+            {{ tag.name }}
+    </span>
+  </div>
+</div>

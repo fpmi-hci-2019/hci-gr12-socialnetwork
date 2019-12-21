@@ -1,0 +1,34 @@
+plugins {
+    id 'org.springframework.boot' version '2.1.3.RELEASE'
+    id 'java'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.epam.esm'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+ext {
+    oauthVersion = '2.1.4.RELEASE'
+    lombokVersion = '1.18.6'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation (
+            'org.springframework.boot:spring-boot-starter-actuator',
+            'org.springframework.boot:spring-boot-starter-web',
+            'org.springframework.security.oauth:spring-security-oauth2',
+            "org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:$oauthVersion",
+            'org.springframework.security:spring-security-jwt',
+            project(':service')
+    )
+    compileOnly "org.projectlombok:lombok:$lombokVersion"
+    annotationProcessor "org.projectlombok:lombok:$lombokVersion"
+    runtimeOnly 'org.springframework.boot:spring-boot-devtools'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}

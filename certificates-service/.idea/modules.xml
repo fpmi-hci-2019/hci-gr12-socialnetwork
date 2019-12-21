@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/certificates-service.iml" filepath="$PROJECT_DIR$/.idea/certificates-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller/certificates-service.controller.iml" filepath="$PROJECT_DIR$/.idea/modules/controller/certificates-service.controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller/certificates-service.controller.main.iml" filepath="$PROJECT_DIR$/.idea/modules/controller/certificates-service.controller.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller/certificates-service.controller.test.iml" filepath="$PROJECT_DIR$/.idea/modules/controller/certificates-service.controller.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/certificates-service.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/certificates-service.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/certificates-service.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/certificates-service.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/certificates-service.domain.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/certificates-service.domain.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/certificates-service.repository.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/certificates-service.repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/certificates-service.repository.main.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/certificates-service.repository.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/certificates-service.repository.test.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/certificates-service.repository.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/certificates-service.service.iml" filepath="$PROJECT_DIR$/.idea/modules/service/certificates-service.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/certificates-service.service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/certificates-service.service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/certificates-service.service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/service/certificates-service.service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.epam.esm.certificates-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.epam.esm.certificates-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.epam.esm.certificates-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.epam.esm.certificates-service.test.iml" />
+    </modules>
+  </component>
+</project>

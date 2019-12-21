@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.6/616105b0831250a2e443447508e6a8b26bc466fb/lombok-1.18.6.jar" />
+        </processorPath>
+        <module name="certificates-service.domain.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.3.0.Final/cca16314fdcab5cae0c7de8cac1e947b1a8ba79b/mapstruct-processor-1.3.0.Final.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.6/616105b0831250a2e443447508e6a8b26bc466fb/lombok-1.18.6.jar" />
+        </processorPath>
+        <module name="certificates-service.service.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="certificates-service.controller.main" target="11" />
+      <module name="certificates-service.controller.test" target="11" />
+      <module name="certificates-service.domain.main" target="11" />
+      <module name="certificates-service.domain.test" target="11" />
+      <module name="certificates-service.repository.main" target="11" />
+      <module name="certificates-service.repository.test" target="11" />
+      <module name="certificates-service.service.main" target="11" />
+      <module name="certificates-service.service.test" target="11" />
+      <module name="com.epam.esm.certificates-service.main" target="11" />
+      <module name="com.epam.esm.certificates-service.test" target="11" />
+      <module name="com.epam.esm.controller.main" target="11" />
+      <module name="com.epam.esm.controller.test" target="11" />
+      <module name="com.epam.esm.domain.main" target="11" />
+      <module name="com.epam.esm.domain.test" target="11" />
+      <module name="com.epam.esm.repository.main" target="11" />
+      <module name="com.epam.esm.repository.test" target="11" />
+      <module name="com.epam.esm.service.main" target="11" />
+      <module name="com.epam.esm.service.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

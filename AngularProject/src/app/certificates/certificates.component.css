@@ -1,0 +1,15 @@
+nav{
+  display: inline-block;
+}
+
+.card{
+  display: inline-block;
+}
+
+li:after{
+  content: "\A";
+}
+
+.btn .btn-success{
+  margin: 200px;
+}

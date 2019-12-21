@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "auth",
+      "type": "com.epam.esm.authentication.config.AuthorizationProperties",
+      "sourceType": "com.epam.esm.authentication.config.AuthorizationProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
